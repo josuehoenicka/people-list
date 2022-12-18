@@ -32,10 +32,6 @@ public class SvPeople extends HttpServlet {
         String name = request.getParameter("name");
         String surname = request.getParameter("surname");
         String phone = request.getParameter("phone");
-        System.out.println("dni: " + dni);
-        System.out.println("name: " + name);
-        System.out.println("surname: " + surname);
-        System.out.println("phone: " + phone);
     }
     
     @Override
